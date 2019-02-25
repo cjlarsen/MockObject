@@ -8,6 +8,9 @@ pod 'MockObject'
 ```
 
 ## Usage
+You can create an instance of any class by writing ```MockObject.createInstance(ofClass: "YOUR_CLASS")```.  This object will return as ```Any?``` so you need to tell the compiler what it is and assign required values, but you'll be able to use it for anything that requires an instance of that class. It's useful for unit tests, but <b>NEVER USE THIS IN PRODUCTION CODE</b>
+
+Ex:
 ```
 guard let peri = MockObject.createInstance(ofClass: String(describing: CBPeripheral.self)) as? CBPeripheral else {
   XCTFail()
