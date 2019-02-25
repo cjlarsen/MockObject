@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.name         = "MockObject"
   s.version      = "0.1.0"
   s.summary      = "Framework for creating mock objects of iOS framework elements that are unable to be instantiated.  Ex: CBPeripheral"
-  s.description  = <<-DESC
+  s.description  = <<-DESC 'Mock any class, created to instantiate framework classes for unit testing an app that uses CoreBluetooth.  Ex: CBPeripheral'
                    DESC
 
   s.homepage     = "https://github.com/cjlarsen/MockObject"
@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.author             = { "Chris Larsen" => "chris@christopherlarsen.com" }
   s.social_media_url   = "https://twitter.com/ChrsJLrsn"
 
-  s.platform     = :ios
   s.platform     = :ios, "12.1"
 
   s.source       = { :git => "https://github.com/cjlarsen/MockObject",
@@ -29,7 +28,6 @@ Pod::Spec.new do |s|
   s.source_files  = "MockObject/**/*.{h,m}"
   s.public_header_files = "MockObject/**/*.h"
   s.resources = "MockObject/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  s.framework  = "UIKit"
   s.requires_arc = true
 
 end
