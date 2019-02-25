@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "MockObject/**/*.{h,m}"
   s.public_header_files = "MockObject/**/*.h"
-  s.resources = ""
   s.requires_arc = true
 
 end
