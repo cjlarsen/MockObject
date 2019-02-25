@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MockObject"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Framework for creating mock objects of iOS framework elements that are unable to be instantiated.  Ex: CBPeripheral"
   s.description  = <<-DESC 'Mock any class, created to instantiate framework classes for unit testing an app that uses CoreBluetooth.  Ex: CBPeripheral'
                    DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author             = { "Chris Larsen" => "chris@christopherlarsen.com" }
   s.social_media_url   = "https://twitter.com/ChrsJLrsn"
 
-  s.platform     = :ios, "12.1"
+  s.platform     = :ios, "11.0"
 
   s.source       = { :git => "https://github.com/cjlarsen/MockObject.git",
                      :tag => "#{s.version}" }
