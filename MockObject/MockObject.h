@@ -2,7 +2,7 @@
 //  MockObject.h
 //  MockObject
 //
-//  Created by OverheadDoor CL on 2/20/19.
+//  Created by Chris Larsen on 2/20/19.
 //  Copyright © 2019 TigerBomb. All rights reserved.
 //
 
