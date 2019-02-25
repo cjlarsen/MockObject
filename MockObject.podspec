@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MockObject"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Framework for creating mock objects of iOS framework elements that are unable to be instantiated.  Ex: CBPeripheral"
   s.description  = <<-DESC 'Mock any class, created to instantiate framework classes for unit testing an app that uses CoreBluetooth.  Ex: CBPeripheral'
                    DESC
