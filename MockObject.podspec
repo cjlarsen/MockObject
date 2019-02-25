@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC 'Mock any class, created to instantiate framework classes for unit testing an app that uses CoreBluetooth.  Ex: CBPeripheral'
                    DESC
 
-  s.homepage     = "https://github.com/cjlarsen/MockObject.git"
+  s.homepage     = "https://github.com/cjlarsen/MockObject"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Chris Larsen" => "chris@christopherlarsen.com" }
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "12.1"
 
-  s.source       = { :git => "https://github.com/cjlarsen/MockObject",
+  s.source       = { :git => "https://github.com/cjlarsen/MockObject.git",
                      :tag => "#{s.version}" }
 
   s.source_files  = "MockObject/**/*.{h,m}"
